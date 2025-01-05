@@ -1,0 +1,48 @@
+body {
+  
+  background:  url('https://images2.imgbox.com/09/1f/sMsTNw10_o.png') no-repeat; 
+  background-size: cover;
+  overflow-x: hidden;
+  
+  
+
+  min-height: 100vh;
+  min-width: 100%;
+}
+.inputbg{
+  background-color:  hsl(245, 19%, 35%, 0.2);
+}
+
+.Error{
+  color: red;
+  font-size: 0.7rem;
+}
+.ticket{
+  background-image: url('/assets/images/pattern-ticket.svg');
+  background-size: cover;
+  
+  width: 23.6rem;
+  
+  
+
+  
+}
+.text{
+  color:transparent;
+  background: linear-gradient(90deg, hsl(7, 86%, 67%), hsl(0, 0%, 100%));
+  
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+strong{
+  color: hsl(7, 88%, 67%);
+}
+@media (max-width:1440px) {
+  body{
+    background: url('https://images2.imgbox.com/bb/4d/RHnDFmxt_o.png') no-repeat;
+    background-size: cover;
+  }
+  .ticket{
+    width: 23.7rem;
+  }
+}
